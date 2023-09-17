@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "M": {
+      "item": "peachy:mint_chocolate"
+    },
+    "R": {
+      "item": "farmersdelight:rice"
+    },
+    "E": {
+      "item": "peachy:mint_ice_cream"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RER",
+    "MRM"
+  ],
+  "result": {
+    "count": 4,
+    "item": "peachy:mint_chocolate_mochi"
+  }
+}

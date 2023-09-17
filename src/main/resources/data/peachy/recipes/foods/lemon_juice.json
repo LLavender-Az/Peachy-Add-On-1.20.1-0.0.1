@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:bottle"
+    },
+    {
+      "item": "peachy:lemon_slice"
+    },
+    {
+      "item": "peachy:lemon_slice"
+    },
+    {
+      "item": "peachy:lemon_slice"
+    },
+    {
+      "item": "peachy:lemon_slice"
+    },
+    {
+      "item": "peachy:lemon_slice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "peachy:lemon_juice"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "peachy:milk"
+    },
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "p": {
+      "item": "peachy:peach_slice"
+    },
+    "x": {
+      "item": "minecraft:sugar"
+    },
+    "w": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "x#x",
+    "ppp",
+    "wOw"
+  ],
+  "result": {
+    "count": 4,
+    "item": "peachy:peach_cookie_crumble"
+  },
+  "show_notification": true
+}

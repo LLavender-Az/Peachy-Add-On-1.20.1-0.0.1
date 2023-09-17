@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "peachy:peach_crate",
+    "peachy:lemon_crate",
+    "peachy:carbonated_rock_crate"
+  ]
+}

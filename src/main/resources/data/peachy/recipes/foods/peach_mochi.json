@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "P": {
+      "item": "peachy:peach_syrup"
+    },
+    "O": {
+      "item": "farmersdelight:rice"
+    },
+    "I": {
+      "item": "peachy:peach_ice_cream"
+    }
+  },
+  "pattern": [
+    " O ",
+    "OIO",
+    "POP"
+  ],
+  "result": {
+    "count": 4,
+    "item": "peachy:peach_mochi"
+  }
+}

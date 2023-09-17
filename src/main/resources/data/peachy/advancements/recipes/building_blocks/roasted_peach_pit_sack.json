@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_roasted_peach_pit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "peachy:roasted_peach_pit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "peach:roasted_peach_pit_sack"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_roasted_peach_pit",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "peachy:blocks/roasted_peach_pit_sack"
+    ]
+  },
+  "sends_telemetry_event": false
+}

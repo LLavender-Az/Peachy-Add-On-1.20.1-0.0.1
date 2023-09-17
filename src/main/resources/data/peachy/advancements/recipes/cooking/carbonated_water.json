@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carbonated_rock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "peachy:carbonated_rock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "peachy:cooking/carbonated_water"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_carbonated_rock",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "peachy:cooking/carbonated_water"
+    ]
+  },
+  "sends_telemetry_event": false
+}

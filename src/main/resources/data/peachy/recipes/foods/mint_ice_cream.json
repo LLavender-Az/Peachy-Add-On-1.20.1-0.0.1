@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "peachy:mint_chocolate"
+    },
+    {
+      "item": "peachy:mint_extract"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "peachy:mint_ice_cream"
+  }
+}

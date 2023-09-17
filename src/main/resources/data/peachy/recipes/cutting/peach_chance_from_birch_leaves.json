@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_leaves"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "minecraft:stick"
+    },
+    {
+      "chance": 0.12,
+      "count": 1,
+      "item": "minecraft:birch_sapling"
+    },
+    {
+      "chance": 0.05,
+      "count": 1,
+      "item": "peachy:peach"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

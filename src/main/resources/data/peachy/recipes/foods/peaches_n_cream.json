@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "peachy:baked_peach"
+    }
+  ],
+  "result": {
+    "item": "peachy:peaches_n_cream"
+  }
+}

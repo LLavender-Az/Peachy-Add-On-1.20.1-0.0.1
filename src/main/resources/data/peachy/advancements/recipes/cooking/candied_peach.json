@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_baked_peach": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "peachy:baked_peach"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "peachy:cooking/candied_peach"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_baked_peach",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "peachy:cooking/candied_peach"
+    ]
+  },
+  "sends_telemetry_event": false
+}

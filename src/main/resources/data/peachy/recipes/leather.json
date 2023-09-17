@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "peachy:tattered_leather"
+    }
+  },
+  "pattern": [
+    "T",
+    "TT"
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:leather"
+  }
+}

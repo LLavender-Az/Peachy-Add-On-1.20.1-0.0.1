@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bottle"
+  },
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "peachy:mint_extract"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "peachy:roasted_peach_pit"
+    },
+    {
+      "item": "peachy:mint"
+    },
+
+    {
+      "item": "minecraft:sugar"
+    }
+
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "peachy:honey_mint_tea"
+  }
+}

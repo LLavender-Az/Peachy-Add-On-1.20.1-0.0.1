@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "peachy:block/iron_rich_gravel"
+  }
+}

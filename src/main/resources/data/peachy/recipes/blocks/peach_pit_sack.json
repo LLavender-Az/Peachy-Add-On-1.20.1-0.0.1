@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "*": {
+      "item": "peachy:peach_pit"
+    }
+  },
+  "pattern": [
+    "***",
+    "***",
+    "***"
+  ],
+  "result": {
+    "item": "peachy:peach_pit_sack"
+  },
+  "show_notification": true
+}

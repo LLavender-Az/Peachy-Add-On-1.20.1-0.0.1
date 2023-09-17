@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_peach_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "peachy:peach_slice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "peachy:peach_cookie_crumble"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_peach_slice",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "peachy:foods/peach_cookie_crumble"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+// 1.20.1	2023-09-14T17:10:55.3478155	Global Loot Modifiers : peachy
+0d816e689a8d556fa017a8be30add548de3e6844 data/forge/loot_modifiers/global_loot_modifiers.json
+a8813d99c2607efd3c05dcbf08b7bde364818e96 data/peachy/loot_modifiers/mint_from_plains_village.json
+e0b74c8553860c58fe90c149f393a43176985146 data/peachy/loot_modifiers/mint_from_taiga_village.json
+b0d37bd44f4227daab80643f510b892945f3c0aa data/peachy/loot_modifiers/peach_from_birch_leaves.json
+d329fa0024d64b9abcb52e93acb4b1ed44f8638c data/peachy/loot_modifiers/peach_from_plains_village.json
+a211aaedd23f55b8e30c659f24f79ea915b781c7 data/peachy/loot_modifiers/poppy_seeds_from_plains_village.json
+936d3cbd86817676e4a48a83664295b9eab880fa data/peachy/loot_modifiers/poppy_seeds_from_poppy.json

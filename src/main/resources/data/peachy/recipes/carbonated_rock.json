@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "peachy:carbonated_rock_crate"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "peachy:carbonated_rock"
+  }
+}

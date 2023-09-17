@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bottle"
+  },
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "peachy:peach_slice"
+    },
+    {
+      "item": "peachy:peach_slice"
+    },
+    {
+      "item": "peachy:peach_slice"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "peachy:peach_syrup"
+  }
+}

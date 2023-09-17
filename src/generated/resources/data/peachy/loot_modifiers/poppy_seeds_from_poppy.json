@@ -1,0 +1,14 @@
+{
+  "type": "peachy:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:poppy",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.1,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "peachy:poppy_seeds"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bottle"
+  },
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "peachy:mint"
+    },
+    {
+      "item": "peachy:mint"
+    },
+    {
+      "item": "peachy:mint"
+    },
+    {
+      "item": "peachy:mint"
+    },
+    {
+      "item": "peachy:mint"
+    },
+    {
+      "item": "peachy:mint"
+    }
+
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "peachy:mint_extract"
+  }
+}

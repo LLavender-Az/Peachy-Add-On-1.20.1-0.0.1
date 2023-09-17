@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "peachy:mint"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "peachy:melon_tanghulu"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "b": {
+      "item": "peachy:bread_slice"
+    },
+    "p": {
+      "item": "peachy:peach_slice"
+    }
+  },
+  "pattern": [
+    " p ",
+    "bbb"
+  ],
+  "result": {
+    "count": 3,
+    "item": "peachy:peach_toast"
+  },
+  "show_notification": true
+}

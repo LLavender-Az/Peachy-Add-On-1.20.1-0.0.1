@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "peachy:peach"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "peachy:peach_slice"
+    },
+    {
+      "count": 1,
+      "item": "peachy:peach_pit"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

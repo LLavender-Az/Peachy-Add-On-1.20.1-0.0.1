@@ -1,0 +1,7 @@
+{
+  "parent": "peachy:block/crop_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "peachy:block/mint_stage1"
+  }
+}

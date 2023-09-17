@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "peachy:block/carbonated_rock_ore"
+  }
+}

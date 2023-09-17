@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "peachy:block/sack_bottom",
+    "east": "peachy:block/pit_sack_side",
+    "north": "peachy:block/pit_sack_side_tied",
+    "particle": "peachy:block/pit_sack_top",
+    "south": "peachy:block/pit_sack_tied",
+    "up": "peachy:block/pit_sack_top",
+    "west": "peachy:block/pit_sack_side"
+  }
+}

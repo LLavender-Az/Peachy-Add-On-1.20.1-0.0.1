@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "peachy:roasted_peach_pit_sack"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "peachy:roasted_peach_pit"
+  }
+}
