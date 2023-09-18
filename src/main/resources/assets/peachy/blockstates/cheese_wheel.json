@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "peachy:block/cheese_wheel",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "peachy:block/cheese_wheel",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "peachy:block/cheese_wheel"
+    },
+    "facing=west": {
+      "model": "peachy:block/cheese_wheel",
+      "y": 90
+    }
+  }
+}

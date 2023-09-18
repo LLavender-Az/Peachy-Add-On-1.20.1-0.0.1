@@ -32,7 +32,7 @@ public class BlockInit {
     public static final RegistryObject<Block> CHURN = registerBlock("churn",
             () -> new ChurnBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion().sound(SoundType.WOOD).mapColor(MapColor.WOOD)));
     public static final RegistryObject<Block> CHEESE_WHEEL = registerBlock("cheese_wheel",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE).sound(SoundType.WOOL).destroyTime(40f).mapColor(MapColor.COLOR_YELLOW)));
+            () -> new CheeseWheelBlock(BlockBehaviour.Properties.copy(Blocks.CAKE).sound(SoundType.WOOL).destroyTime(40f).mapColor(MapColor.COLOR_YELLOW)));
     public static final RegistryObject<Block> IRON_RICH_GRAVEL = registerBlock("iron_rich_gravel",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.GRAVEL).mapColor(MapColor.RAW_IRON), UniformInt.of(2,4)));
     public static final RegistryObject<Block> LEMON_CRATE = registerBlock("lemon_crate",
