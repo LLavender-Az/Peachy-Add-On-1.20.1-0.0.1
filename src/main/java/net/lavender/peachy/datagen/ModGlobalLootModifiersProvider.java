@@ -31,6 +31,10 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.POPPY).build(),
                 LootItemRandomChanceCondition.randomChance(0.10f).build()}, FoodInit.POPPY_SEEDS.get()));
 
+        add("large_amethyst_from_amethyst", new AddItemModifier(new LootItemCondition[] {
+                LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.AMETHYST_CLUSTER).build(),
+                LootItemRandomChanceCondition.randomChance(0.08f).build()}, ItemInit.LARGE_AMETHYST_CHUNK.get()));
+
         add("peach_from_plains_village", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/plains_village")).build()}, FoodInit.PEACH.get()));
 
