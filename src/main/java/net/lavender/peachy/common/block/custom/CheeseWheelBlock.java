@@ -20,7 +20,7 @@ public class CheeseWheelBlock extends Block {
     }
 
     private static final VoxelShape SHAPE =
-            Block.box(1, 0, 1, 15, 6, 15);
+            Block.box(1, 0, 1, 15, 7, 15);
 
     @Override
     public VoxelShape getShape(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos, CollisionContext collisionContext) {
