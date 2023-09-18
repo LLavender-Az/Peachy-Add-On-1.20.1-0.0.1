@@ -9,6 +9,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -33,6 +34,7 @@ public class PeachyTab {
                             pOutput.accept(BlockInit.IRON_RICH_GRAVEL.get());
                             pOutput.accept(BlockInit.WILD_MINT.get());
                             pOutput.accept(BlockInit.CHURN.get());
+                            pOutput.accept(BlockInit.CHEESE_WHEEL.get());
 
                             //peach
                             pOutput.accept(FoodInit.PEACH.get());
@@ -51,7 +53,7 @@ public class PeachyTab {
                             pOutput.accept(FoodInit.PEACH_COOKIE_CRUMBLE.get());
                             pOutput.accept(FoodInit.PEACHES_N_CREAM.get());
                             pOutput.accept(FoodInit.BREAD_SLICE.get());
-                            pOutput.accept(BlockInit.CHEESE_WHEEL.get());
+
                             pOutput.accept(FoodInit.CHEESE.get());
                             pOutput.accept(FoodInit.PEACH_TOAST.get());
                             pOutput.accept(FoodInit.GRILLED_CHEESE.get());
