@@ -59,6 +59,7 @@ public class Peachy {
             event.accept(FoodInit.MILK_CHOCOLATE.get());
             if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
                 event.accept(ItemInit.TATTERED_LEATHER.get());
+                event.accept(ItemInit.LARGE_AMETHYST_CHUNK.get());
 
             }
         }
