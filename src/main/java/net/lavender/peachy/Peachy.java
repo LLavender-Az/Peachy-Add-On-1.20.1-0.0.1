@@ -48,6 +48,10 @@ public class Peachy {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(BlockInit.WILD_MINT.getId(), BlockInit.POTTED_MINT);
+        });
+
 
     }
 

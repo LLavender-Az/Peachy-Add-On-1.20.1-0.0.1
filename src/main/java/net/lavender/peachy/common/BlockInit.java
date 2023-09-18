@@ -49,8 +49,9 @@ public class BlockInit {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL).mapColor(MapColor.TERRACOTTA_BROWN)));
     public static final RegistryObject<Block> WILD_MINT = registerBlock("wild_mint",
             () -> new FlowerBlock(ModEffects.RADIANT, 0, BlockBehaviour.Properties.copy(Blocks.GRASS).sound(SoundType.GRASS).noCollission().mapColor(MapColor.COLOR_LIGHT_GRAY)));
-
-
+    public static final RegistryObject<Block> POTTED_MINT = BLOCKS.register("potted_mint",
+            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), BlockInit.WILD_MINT,
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

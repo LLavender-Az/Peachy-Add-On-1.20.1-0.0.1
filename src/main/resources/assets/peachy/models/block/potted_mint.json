@@ -2,6 +2,6 @@
   "parent": "minecraft:block/flower_pot_cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "plant": "peachy:block/mint"
+    "plant": "peachy:block/potted_mint"
   }
 }
