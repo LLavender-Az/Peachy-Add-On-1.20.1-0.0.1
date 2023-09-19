@@ -55,6 +55,7 @@ public class PeachyTab {
 
                             pOutput.accept(FoodInit.CHEESE.get());
                             pOutput.accept(FoodInit.PEACH_TOAST.get());
+                            pOutput.accept(FoodInit.POPPY_SEED_MUFFIN.get());
                             pOutput.accept(FoodInit.GRILLED_CHEESE.get());
                             pOutput.accept(FoodInit.MELON_TANGHULU.get());
                             pOutput.accept(FoodInit.PEACH_ICE_CREAM.get());
@@ -68,7 +69,7 @@ public class PeachyTab {
 
                             pOutput.accept(FoodInit.LEMON.get());
                             pOutput.accept(FoodInit.LEMON_SLICE.get());
-
+                            pOutput.accept(FoodInit.LEMON_CANDY.get());
 
                             //drinks
                             pOutput.accept(FoodInit.LEMONADE.get());

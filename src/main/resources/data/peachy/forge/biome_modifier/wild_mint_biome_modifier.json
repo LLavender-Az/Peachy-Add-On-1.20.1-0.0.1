@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "forest",
+    "beach",
+    "plains",
+    "meadow",
+    "sunflower_plains"
+  ],
+  "features": "peachy:wild_mint",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "peachy:iron_rich_gravel",
+  "step": "underground_ores"
+}

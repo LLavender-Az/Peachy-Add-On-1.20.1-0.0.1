@@ -2,10 +2,12 @@ package net.lavender.peachy.datagen;
 
 import net.lavender.peachy.Peachy;
 import net.lavender.peachy.common.FoodInit;
+import net.lavender.peachy.common.ItemInit;
 import net.lavender.peachy.util.PeachyTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -21,8 +23,30 @@ public class PeachyItemTagsGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
+
         this.tag(PeachyTags.Items.CHEESE)
                 .add(FoodInit.CHEESE.get());
+
+        this.tag(PeachyTags.Items.MILK)
+                .add(Items.MILK_BUCKET);
+
+
+        this.tag(PeachyTags.Items.FRUITS)
+                .add(Items.APPLE)
+                .add(Items.MELON_SLICE)
+                .add(Items.SWEET_BERRIES)
+                .add(FoodInit.LEMON.get())
+                .add(FoodInit.PEACH.get());
+
+        this.tag(PeachyTags.Items.TEA_LEAVES)
+                .add(ItemInit.ROSE.get())
+                .add(ItemInit.ROASTED_PEACH_PIT.get());
+
+
+
+
+
+
 
 
     }

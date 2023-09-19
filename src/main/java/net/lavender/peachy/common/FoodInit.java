@@ -30,6 +30,7 @@ public class FoodInit {
     public static final RegistryObject<Item> HONEY_MINT_TEA = FOODS.register("honey_mint_tea", () -> new SmallEffectRadiantDrink(props().food(Foods.HONEY_MINT_TEA)));
     public static final RegistryObject<Item> LEMON = FOODS.register("lemon", () -> new Item(props().food(Foods.LEMON)));
     public static final RegistryObject<Item> LEMONADE = FOODS.register("lemonade", () -> new DrinkItem(props().food(Foods.LEMONADE)));
+    public static final RegistryObject<Item> LEMON_CANDY = FOODS.register("lemon_candy", () -> new CandyItem(props().food(Foods.LEMON_CANDY)));
     public static final RegistryObject<Item> LEMON_JUICE = FOODS.register("lemon_juice", () -> new DrinkItem(props().food(Foods.LEMON_JUICE)));
     public static final RegistryObject<Item> LEMON_SLICE = FOODS.register("lemon_slice", () -> new Item(props().food(Foods.LEMON_SLICE)));
     public static final RegistryObject<Item> MELON_TANGHULU = FOODS.register("melon_tanghulu", () -> new SmallEffectRadiantDrink(props().food(Foods.MELON_TANGHULU)));
@@ -55,6 +56,7 @@ public class FoodInit {
     public static final RegistryObject<Item> PEACH_TOAST = FOODS.register("peach_toast", () -> new SmallEffectRadiantSnack(props().food(Foods.PEACH_TOAST)));
     public static final RegistryObject<Item> PEPPERMINT_PATTIE = FOODS.register("peppermint_pattie", () -> new MediumEffectStimulatedSnack(props().food(Foods.PEPPERMINT_PATTIE)));
     public static final RegistryObject<Item> POPPY_SEEDS = FOODS.register("poppy_seeds", () -> new Item(props().food(Foods.POPPY_SEEDS)));
+    public static final RegistryObject<Item> POPPY_SEED_MUFFIN = FOODS.register("poppy_seed_muffin", () -> new Item(props().food(Foods.POPPY_SEED_MUFFIN)));
     public static final RegistryObject<Item> SWEET_BERRY_JUICE = FOODS.register("sweet_berry_juice", () -> new MediumEffectRadiantDrink(props().food(Foods.SWEET_BERRY_JUICE)));
 
 
@@ -93,6 +95,8 @@ public class FoodInit {
                 new MobEffectInstance(ModEffects.RADIANT.get(), 600, 0), 1.0f).effect(() -> new MobEffectInstance(ModEffects.STIMULATED.get(), 600, 0), 1.0f).build();
         public static final FoodProperties LEMON = new FoodProperties.Builder().nutrition(4).saturationMod(2.4f).build();
         public static final FoodProperties LEMONADE = new FoodProperties.Builder().nutrition(5).saturationMod(4.5f).build();
+        public static final FoodProperties LEMON_CANDY = new FoodProperties.Builder().nutrition(1).saturationMod(0.50f).effect(() ->
+                new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 300, 0), 1.0f).effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 300, 0), 1.0f).fast().build();
         public static final FoodProperties LEMON_JUICE = new FoodProperties.Builder().nutrition(2).saturationMod(2f).build();
         public static final FoodProperties LEMON_SLICE = new FoodProperties.Builder().nutrition(1).saturationMod(0.8f).build();
         public static final FoodProperties MELON_TANGHULU = new FoodProperties.Builder().nutrition(3).saturationMod(2f).effect(() ->
@@ -139,6 +143,8 @@ public class FoodInit {
                 new MobEffectInstance(ModEffects.STIMULATED.get(), 3000, 0), 1.0f).build();
         public static final FoodProperties POPPY_SEEDS = new FoodProperties.Builder().nutrition(0).fast().saturationMod(0.2f).effect(() ->
                 new MobEffectInstance(ModEffects.STIMULATED.get(), 300, 0), 1.0f).build();
+        public static final FoodProperties POPPY_SEED_MUFFIN = new FoodProperties.Builder().nutrition(5).fast().saturationMod(5f).effect(() ->
+                new MobEffectInstance(ModEffects.STIMULATED.get(), 600, 0), 1.0f).build();
         public static final FoodProperties SWEET_BERRY_JUICE = new FoodProperties.Builder().nutrition(5).saturationMod(4.5f).effect(() ->
                 new MobEffectInstance(ModEffects.RADIANT.get(), 3000, 0), 1.0f).build();
 

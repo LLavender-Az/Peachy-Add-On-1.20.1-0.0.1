@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "peachy:cheese_wheel"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "peachy:cheese"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

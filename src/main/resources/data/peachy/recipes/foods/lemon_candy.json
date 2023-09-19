@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "peachy:lemon_juice"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "peachy:carbonated_rock"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "peachy:lemon_candy"
+  }
+}
