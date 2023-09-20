@@ -1,7 +1,7 @@
 {
   "type": "forge:add_features",
   "biomes": {
-    "type": "minecraft:plains"
+    "type": "forge:any"
   },
   "features": "peachy:carbonated_rock_ore",
   "step": "underground_ores"

@@ -1,9 +1,9 @@
 {
-  "feature": "peachy:iron_rich_gravel",
+  "feature": "peachy:carbonated_rock_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 10
+      "count": 18
     },
     {
       "type": "minecraft:in_square"
@@ -16,7 +16,7 @@
           "absolute": 0
         },
         "max_inclusive": {
-          "absolute": 250
+          "absolute": 120
         }
       }
     },

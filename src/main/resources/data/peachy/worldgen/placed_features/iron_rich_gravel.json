@@ -1,9 +1,9 @@
 {
-  "feature": "peachyaddons:carbonated_rock_ore",
+  "feature": "peachy:iron_rich_gravel",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 14
+      "count": 15
     },
     {
       "type": "minecraft:in_square"
@@ -11,12 +11,12 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:uniform",
+        "type": "minecraft:trapezoid",
         "min_inclusive": {
-          "absolute": 60
+          "absolute": 0
         },
         "max_inclusive": {
-          "absolute": 120
+          "absolute": 250
         }
       }
     },
