@@ -1,4 +1,4 @@
-package net.lavender.peachy.tabs;
+package net.lavender.peachy.advanced;
 
 
 import net.lavender.peachy.Peachy;

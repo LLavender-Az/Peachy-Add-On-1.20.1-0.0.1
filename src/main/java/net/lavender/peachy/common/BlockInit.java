@@ -1,10 +1,10 @@
 package net.lavender.peachy.common;
 
 import net.lavender.peachy.Peachy;
+import net.lavender.peachy.advanced.effect.ModEffects;
 import net.lavender.peachy.common.block.custom.CheeseWheelBlock;
 import net.lavender.peachy.common.block.custom.ChurnBlock;
 import net.lavender.peachy.common.block.custom.MintCrop;
-import net.lavender.peachy.effect.ModEffects;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

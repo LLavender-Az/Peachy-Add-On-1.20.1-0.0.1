@@ -2,22 +2,22 @@
   "feature": "peachy:wild_mint",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 6
-    },
-    {
       "type": "minecraft:rarity_filter",
-      "chance": 32
+      "chance": 120
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "WORLD_SURFACE_WG"
+      "heightmap": "MOTION_BLOCKING"
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "farmersdelight:biome_tag",
+      "tag": "minecraft:is_overworld"
     }
   ]
 }

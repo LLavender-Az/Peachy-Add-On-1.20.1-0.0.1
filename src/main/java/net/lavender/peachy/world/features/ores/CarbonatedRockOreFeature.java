@@ -1,3 +1,4 @@
+
 package net.lavender.peachy.world.features.ores;
 
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;

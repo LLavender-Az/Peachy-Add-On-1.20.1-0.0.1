@@ -1,4 +1,4 @@
-package net.lavender.peachy.util;
+package net.lavender.peachy.advanced;
 
 import net.lavender.peachy.Peachy;
 import net.minecraft.resources.ResourceLocation;

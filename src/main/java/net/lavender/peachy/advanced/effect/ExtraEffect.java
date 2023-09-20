@@ -1,4 +1,4 @@
-package net.lavender.peachy.effect;
+package net.lavender.peachy.advanced.effect;
 
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;

@@ -3,7 +3,7 @@ package net.lavender.peachy.datagen;
 
 import net.lavender.peachy.Peachy;
 import net.lavender.peachy.common.BlockInit;
-import net.lavender.peachy.util.PeachyTags;
+import net.lavender.peachy.advanced.PeachyTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.BlockTagsProvider;

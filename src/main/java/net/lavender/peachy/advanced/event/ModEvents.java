@@ -1,4 +1,4 @@
-package net.lavender.peachy.event;
+package net.lavender.peachy.advanced.event;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.lavender.peachy.Peachy;

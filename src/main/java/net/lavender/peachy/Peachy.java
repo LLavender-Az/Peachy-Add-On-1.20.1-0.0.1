@@ -1,13 +1,10 @@
 package net.lavender.peachy;
 
 import com.mojang.logging.LogUtils;
-import net.lavender.peachy.common.BlockInit;
-import net.lavender.peachy.common.FeatureInit;
-import net.lavender.peachy.common.FoodInit;
-import net.lavender.peachy.common.ItemInit;
-import net.lavender.peachy.effect.ModEffects;
+import net.lavender.peachy.advanced.PeachyTab;
+import net.lavender.peachy.common.*;
+import net.lavender.peachy.advanced.effect.ModEffects;
 import net.lavender.peachy.datagen.loot.ModLootModifiers;
-import net.lavender.peachy.tabs.PeachyTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -36,7 +33,7 @@ public class Peachy {
         BlockInit.BLOCKS.register(modEventBus);
         FoodInit.FOODS.register(modEventBus);
         ItemInit.ITEMS.register(modEventBus);
-        ModEffects.MOB_EFFECTS.register(modEventBus);
+        ModEffects.REGISTRY.register(modEventBus);
         PeachyTab.CREATIVE_MODE_TABS.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
