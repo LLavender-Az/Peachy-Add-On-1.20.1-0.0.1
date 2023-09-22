@@ -3,7 +3,10 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "peachy:mint_chocolate"
+      "item": "peachy:milk_chocolate"
+    },
+    {
+      "item": "peachy:mint_extract"
     },
     {
       "item": "minecraft:wheat"

@@ -37,7 +37,7 @@ public class MintExtractItem extends Item {
         super.appendHoverText(stack, level, components, flag);
     }
 
-    public static final int MAX_STACK_SIZE = 64;
+    public static final int MAX_STACK_SIZE = 16;
 
 
     public ItemStack finishUsingItem(ItemStack p_40684_, Level p_40685_, LivingEntity p_40686_) {

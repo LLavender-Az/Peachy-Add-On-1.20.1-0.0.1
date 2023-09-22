@@ -15,7 +15,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
 import java.util.function.Supplier;
 
 public class BlockInit {
@@ -47,8 +46,10 @@ public class BlockInit {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL).mapColor(MapColor.TERRACOTTA_BROWN)));
     public static final RegistryObject<Block> ROASTED_PEACH_PIT_SACK = registerBlock("roasted_peach_pit_sack",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL).mapColor(MapColor.TERRACOTTA_BROWN)));
+    public static final RegistryObject<Block> ROSE_FLOWER = registerBlock("rose_flower",
+            () -> new FlowerBlock(ModEffects.RADIANT, 0, BlockBehaviour.Properties.copy(Blocks.POPPY).sound(SoundType.GRASS).noCollission().mapColor(MapColor.COLOR_RED)));
     public static final RegistryObject<Block> WILD_MINT = registerBlock("wild_mint",
-            () -> new FlowerBlock(ModEffects.RADIANT, 0, BlockBehaviour.Properties.copy(Blocks.GRASS).sound(SoundType.GRASS).noCollission().mapColor(MapColor.COLOR_LIGHT_GRAY)));
+            () -> new FlowerBlock(ModEffects.STIMULATED, 0, BlockBehaviour.Properties.copy(Blocks.ALLIUM).sound(SoundType.GRASS).noCollission().mapColor(MapColor.COLOR_LIGHT_GREEN)));
     public static final RegistryObject<Block> POTTED_MINT = BLOCKS.register("potted_mint",
             () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), BlockInit.WILD_MINT,
                     BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));

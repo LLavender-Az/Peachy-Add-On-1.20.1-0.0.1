@@ -53,24 +53,34 @@ public class ModEvents {
         }
         //CLERIC TRADES 3 DIAMONDS FOR 1 LARGE AMETHYST CHUNK
         if (event.getType() == VillagerProfession.CLERIC) {
-                Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
-                ItemStack stack = new ItemStack(ItemInit.LARGE_AMETHYST_CHUNK.get(), 1);
-                int villagerLevel = 3;
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ItemInit.LARGE_AMETHYST_CHUNK.get(), 1);
+            int villagerLevel = 3;
 
-                trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                        new ItemStack(Items.DIAMOND, 3),
-                        stack, 5, 25, 0.25F));
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.DIAMOND, 3),
+                    stack, 5, 25, 0.25F));
 
-            }
+        }
         //LEATHERWORKER TRADES 4 LEATHER FOR 9 TATTERED_LEATHER
         if (event.getType() == VillagerProfession.LEATHERWORKER) {
-                    Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
-                    ItemStack stack = new ItemStack(ItemInit.TATTERED_LEATHER.get(), 9);
-                    int villagerLevel = 1;
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ItemInit.TATTERED_LEATHER.get(), 9);
+            int villagerLevel = 1;
 
-                    trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                            new ItemStack(Items.LEATHER, 4),
-                            stack, 32, 16, 0.45F));
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.LEATHER, 4),
+                    stack, 32, 16, 0.45F));
+        }
+        //LIBRARIAN TRADES 1 LUCK CHARM FOR 24 EMERALDS
+        if (event.getType() == VillagerProfession.LIBRARIAN) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(Items.EMERALD, 24);
+            int villagerLevel = 4;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(ItemInit.LUCK_CHARM.get(), 1),
+                    stack, 1, 50, 1.0F));
 
         }
     }

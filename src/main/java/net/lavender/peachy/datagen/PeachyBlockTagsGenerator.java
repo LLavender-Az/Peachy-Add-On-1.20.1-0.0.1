@@ -19,7 +19,7 @@ public class PeachyBlockTagsGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        this.tag(PeachyTags.Blocks.CHEESE)
+        this.tag(PeachyTags.Blocks.CHEESE_BLOCKS)
                 .add(BlockInit.CHEESE_WHEEL.get());
 
 

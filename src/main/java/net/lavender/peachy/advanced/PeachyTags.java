@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.Block;
 
 public class PeachyTags {
     public static class Blocks {
-        public static final TagKey<Block> CHEESE = tag("cheese");
+        public static final TagKey<Block> CHEESE_BLOCKS = tag("cheese_blocks");
 
 
 

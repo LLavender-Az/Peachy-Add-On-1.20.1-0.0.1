@@ -32,9 +32,9 @@ public class SodaItem extends Item {
 
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
         if (Screen.hasShiftDown()) {
-            components.add(Component.literal("Radiant 2:30").withStyle(ChatFormatting.RED));
+            components.add(Component.literal("Vibrant 1:00").withStyle(ChatFormatting.GOLD));
         } else {
-            components.add(Component.literal("Radiant 2:30").withStyle(ChatFormatting.RED));
+            components.add(Component.literal("Vibrant 1:00").withStyle(ChatFormatting.GOLD));
         }
 
         super.appendHoverText(stack, level, components, flag);

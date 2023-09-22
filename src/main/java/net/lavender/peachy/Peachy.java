@@ -55,7 +55,6 @@ public class Peachy {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(FoodInit.CHOCOLATE_ICE_CREAM.get());
-            event.accept(FoodInit.DARK_CHOCOLATE.get());
             event.accept(FoodInit.MILK_CHOCOLATE.get());
             if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
                 event.accept(ItemInit.TATTERED_LEATHER.get());

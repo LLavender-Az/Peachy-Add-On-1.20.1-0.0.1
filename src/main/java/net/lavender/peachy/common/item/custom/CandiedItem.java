@@ -29,9 +29,9 @@ public class CandiedItem extends Item {
 
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
         if (Screen.hasShiftDown()) {
-            components.add(Component.literal("Tireless 0:30").withStyle(ChatFormatting.GOLD));
+            components.add(Component.literal("Lively 0:30").withStyle(ChatFormatting.GOLD));
         } else {
-            components.add(Component.literal("Tireless 0:30").withStyle(ChatFormatting.GOLD));
+            components.add(Component.literal("Lively 0:30").withStyle(ChatFormatting.GOLD));
         }
 
         super.appendHoverText(stack, level, components, flag);

@@ -21,6 +21,7 @@ public class ItemInit {
     public static final RegistryObject<Item> ROASTED_PEACH_PIT = ITEMS.register("roasted_peach_pit", () -> new Item(props()));
     public static final RegistryObject<Item> ROOTED_MINT = ITEMS.register("rooted_mint", () -> new ItemNameBlockItem(BlockInit.MINT_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> TATTERED_LEATHER = ITEMS.register("tattered_leather", () -> new Item(props()));
+    public static final RegistryObject<Item> LUCK_CHARM = ITEMS.register("luck_charm", () -> new Item(props().stacksTo(1)));
 
 
 

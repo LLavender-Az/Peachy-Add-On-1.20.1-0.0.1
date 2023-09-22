@@ -1,31 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "tag": "peachy:milk"
-    },
-    "O": {
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
       "item": "farmersdelight:pie_crust"
     },
-    "p": {
+    {
       "item": "peachy:peach_slice"
     },
-    "x": {
+    {
+      "item": "peachy:peach_slice"
+    },
+    {
       "item": "minecraft:sugar"
     },
-    "w": {
-      "item": "minecraft:wheat"
+    {
+      "item": "farmersdelight:wheat_dough"
+    },
+    {
+      "tag": "forge:milk"
     }
-  },
-  "pattern": [
-    "x#x",
-    "ppp",
-    "wOw"
   ],
   "result": {
     "count": 4,
     "item": "peachy:peach_cookie_crumble"
-  },
-  "show_notification": true
+  }
 }

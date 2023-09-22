@@ -3,6 +3,9 @@
   "category": "food",
   "ingredients": [
     {
+      "item": "minecraft:glass_bottle"
+    },
+    {
       "item": "peachy:carbonated_water"
     },
     {
@@ -10,6 +13,9 @@
     },
     {
       "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:ice"
     }
   ],
   "result": {

@@ -29,9 +29,9 @@ public class CandyItem extends Item {
 
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
         if (Screen.hasShiftDown()) {
-            components.add(Component.literal("Tireless 0:15").withStyle(ChatFormatting.GOLD));
+            components.add(Component.literal("Perky 0:15").withStyle(ChatFormatting.GOLD));
         } else {
-            components.add(Component.literal("Tireless 0:15").withStyle(ChatFormatting.GOLD));
+            components.add(Component.literal("Perky 0:15").withStyle(ChatFormatting.GOLD));
         }
 
         super.appendHoverText(stack, level, components, flag);
