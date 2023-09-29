@@ -25,7 +25,11 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
         add("peach_from_birch_leaves", new AddItemModifier(new LootItemCondition[] {
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.BIRCH_LEAVES).build(),
-                LootItemRandomChanceCondition.randomChance(0.15f).build()}, FoodInit.PEACH.get()));
+                LootItemRandomChanceCondition.randomChance(0.18f).build()}, FoodInit.PEACH.get()));
+
+        add("lemon_from_dark_oak_leaves", new AddItemModifier(new LootItemCondition[] {
+                LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.MANGROVE_LEAVES).build(),
+                LootItemRandomChanceCondition.randomChance(0.18f).build()}, FoodInit.LEMON.get()));
 
         add("poppy_seeds_from_poppy", new AddItemModifier(new LootItemCondition[] {
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.POPPY).build(),

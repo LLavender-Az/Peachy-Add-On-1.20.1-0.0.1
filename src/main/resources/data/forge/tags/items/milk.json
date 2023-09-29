@@ -1,6 +1,6 @@
 {
   "values": [
-    "#forge:milk/milk",
+    "minecraft:milk_bucket",
     "farmersdelight:milk_bottle"
   ]
 }

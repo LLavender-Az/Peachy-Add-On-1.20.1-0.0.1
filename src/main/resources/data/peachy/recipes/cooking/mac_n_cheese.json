@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:egg"
+    },
+    {
+      "item": "peachy:cheese_wedge"
+    },
+    {
+      "item": "peachy:cheese_wedge"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "peachy:mac_n_cheese"
+  }
+}

@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "peachy:block/rose"
+    "cross": "peachy:block/rose_flower"
   }
 }

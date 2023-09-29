@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "peachy:lemon_juice"
+    },
+    {
+      "item": "peachy:rose_tea"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "peachy:lemon_slice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "peachy:lemon_tea"
+  }
+}

@@ -23,13 +23,6 @@ public class PeachyItemTagsGenerator extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
 
-        this.tag(PeachyTags.Items.CHEESE)
-                .add(FoodInit.CHEESE_WEDGE.get());
-
-        this.tag(PeachyTags.Items.MILK)
-                .add(Items.MILK_BUCKET);
-
-
         this.tag(PeachyTags.Items.FRUITS)
                 .add(Items.APPLE)
                 .add(Items.MELON_SLICE)

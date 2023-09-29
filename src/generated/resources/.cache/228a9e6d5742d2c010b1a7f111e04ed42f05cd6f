@@ -1,6 +1,7 @@
-// 1.20.1	2023-09-17T22:33:15.527491	Global Loot Modifiers : peachy
-de12c0847b61371e7b7b731bddd93536d80c6460 data/forge/loot_modifiers/global_loot_modifiers.json
+// 1.20.1	2023-09-29T18:12:42.3380837	Global Loot Modifiers : peachy
+11b809c0d639cb92c6e3af7f8c67fd2261a013fc data/forge/loot_modifiers/global_loot_modifiers.json
 047816704789617353bba6148f7e5f0b8bbcd109 data/peachy/loot_modifiers/large_amethyst_from_amethyst.json
+80021af470e1f6d1200a957e3bbba4a7ed5583fe data/peachy/loot_modifiers/lemon_from_dark_oak_leaves.json
 a8813d99c2607efd3c05dcbf08b7bde364818e96 data/peachy/loot_modifiers/mint_from_plains_village.json
 e0b74c8553860c58fe90c149f393a43176985146 data/peachy/loot_modifiers/mint_from_taiga_village.json
 b0d37bd44f4227daab80643f510b892945f3c0aa data/peachy/loot_modifiers/peach_from_birch_leaves.json

@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "peachy:rose_flower"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "peachy:rose"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

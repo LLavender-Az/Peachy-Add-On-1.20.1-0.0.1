@@ -9,6 +9,7 @@ import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -52,7 +53,7 @@ public class ModEvents {
 
         }
         //CLERIC TRADES 3 DIAMONDS FOR 1 LARGE AMETHYST CHUNK
-        if (event.getType() == VillagerProfession.CLERIC) {
+        if (event.getType() == VillagerProfession.ARMORER) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ItemInit.LARGE_AMETHYST_CHUNK.get(), 1);
             int villagerLevel = 3;
@@ -72,10 +73,10 @@ public class ModEvents {
                     new ItemStack(Items.LEATHER, 4),
                     stack, 32, 16, 0.45F));
         }
-        //LIBRARIAN TRADES 1 LUCK CHARM FOR 24 EMERALDS
-        if (event.getType() == VillagerProfession.LIBRARIAN) {
+        //LIBRARIAN TRADES 1 LUCK CHARM FOR 5 EMERALD BLOCKS
+        if (event.getType() == VillagerProfession.CLERIC) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
-            ItemStack stack = new ItemStack(Items.EMERALD, 24);
+            ItemStack stack = new ItemStack(Items.EMERALD_BLOCK, 5);
             int villagerLevel = 4;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(

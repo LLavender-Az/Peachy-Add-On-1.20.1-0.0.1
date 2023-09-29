@@ -43,6 +43,8 @@ public class PeachyTab {
                             pOutput.accept(ItemInit.PEACH_PIT.get());
                             pOutput.accept(ItemInit.ROASTED_PEACH_PIT.get());
                             pOutput.accept(ItemInit.CARBONATED_ROCK.get());
+                            pOutput.accept(ItemInit.WHEAT_FLOUR.get());
+                            pOutput.accept(ItemInit.RICE_FLOUR.get());
                             pOutput.accept(FoodInit.POPPY_SEEDS.get());
                             pOutput.accept(ItemInit.ROSE.get());
 
@@ -52,23 +54,29 @@ public class PeachyTab {
                             pOutput.accept(FoodInit.PEACH_CANDY.get());
                             pOutput.accept(FoodInit.PEACH_COOKIE_CRUMBLE.get());
                             pOutput.accept(FoodInit.PEACHES_N_CREAM.get());
+                            pOutput.accept(FoodInit.CHEESE_WEDGE.get());
+                            pOutput.accept(FoodInit.CHEESE_N_FRUITS.get());
+                            pOutput.accept(FoodInit.MAC_N_CHEESE.get());
                             pOutput.accept(FoodInit.BREAD_SLICE.get());
 
-                            pOutput.accept(FoodInit.CHEESE_WEDGE.get());
                             pOutput.accept(FoodInit.PEACH_TOAST.get());
                             pOutput.accept(FoodInit.GRILLED_CHEESE.get());
+                            pOutput.accept(FoodInit.BEEF_JERKY.get());
                             pOutput.accept(FoodInit.MELON_TANGHULU.get());
                             pOutput.accept(FoodInit.PEACH_ICE_CREAM.get());
                             pOutput.accept(FoodInit.MINT_ICE_CREAM.get());
                             pOutput.accept(FoodInit.PEACH_MOCHI.get());
                             pOutput.accept(FoodInit.MINT_CHOCOLATE_MOCHI.get());
-
                             pOutput.accept(FoodInit.MINT_CHOCOLATE_COOKIE.get());
                             pOutput.accept(FoodInit.PEPPERMINT_PATTIE.get());
 
                             pOutput.accept(FoodInit.LEMON.get());
                             pOutput.accept(FoodInit.LEMON_SLICE.get());
+                            pOutput.accept(FoodInit.LEMON_TART.get());
+                            pOutput.accept(FoodInit.LEMON_BAR.get());
                             pOutput.accept(FoodInit.LEMON_CANDY.get());
+
+                            pOutput.accept(FoodInit.CHERRY.get());
 
                             //drinks
                             pOutput.accept(FoodInit.LEMONADE.get());
@@ -78,7 +86,10 @@ public class PeachyTab {
                             pOutput.accept(FoodInit.PEACH_TEA.get());
                             pOutput.accept(FoodInit.MINT_TEA.get());
                             pOutput.accept(FoodInit.HONEY_MINT_TEA.get());
+                            pOutput.accept(FoodInit.LEMON_TEA.get());
+                            pOutput.accept(FoodInit.ROSE_TEA.get());
                             pOutput.accept(FoodInit.PEACH_SODA.get());
+                            pOutput.accept(FoodInit.LEMON_POP.get());
                             pOutput.accept(FoodInit.CARBONATED_WATER.get());
                             pOutput.accept(FoodInit.PEACH_SYRUP.get());
                             pOutput.accept(FoodInit.MINT_EXTRACT.get());

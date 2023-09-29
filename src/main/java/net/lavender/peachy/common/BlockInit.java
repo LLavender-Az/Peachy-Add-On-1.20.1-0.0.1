@@ -5,12 +5,14 @@ import net.lavender.peachy.advanced.effect.ModEffects;
 import net.lavender.peachy.common.block.custom.CheeseWheelBlock;
 import net.lavender.peachy.common.block.custom.ChurnBlock;
 import net.lavender.peachy.common.block.custom.MintCrop;
+import net.lavender.peachy.common.block.custom.FlammableRotatedPillarBlock;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,14 +26,14 @@ public class BlockInit {
     // A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
     public static final RegistryObject<Block> CARBONATED_ROCK_CRATE = registerBlock("carbonated_rock_crate",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BONE_BLOCK).sound(SoundType.WOOD).mapColor(MapColor.WOOD)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BONE_BLOCK).sound(SoundType.STONE).mapColor(MapColor.WOOD)));
     public static final RegistryObject<Block> CARBONATED_ROCK_ORE = registerBlock("carbonated_rock_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)
                     .requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK).mapColor(MapColor.TERRACOTTA_BROWN), UniformInt.of(3,6)));
     public static final RegistryObject<Block> CHURN = registerBlock("churn",
             () -> new ChurnBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion().sound(SoundType.WOOD).mapColor(MapColor.WOOD)));
     public static final RegistryObject<Block> CHEESE_WHEEL = registerBlock("cheese_wheel",
-            () -> new CheeseWheelBlock(BlockBehaviour.Properties.copy(Blocks.CAKE).sound(SoundType.WOOL).destroyTime(40f).mapColor(MapColor.COLOR_YELLOW)));
+            () -> new CheeseWheelBlock(BlockBehaviour.Properties.copy(Blocks.CAKE).sound(SoundType.WOOL).pushReaction(PushReaction.DESTROY).mapColor(MapColor.COLOR_YELLOW)));
     public static final RegistryObject<Block> IRON_RICH_GRAVEL = registerBlock("iron_rich_gravel",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.GRAVEL).mapColor(MapColor.RAW_IRON), UniformInt.of(2,4)));
     public static final RegistryObject<Block> LEMON_CRATE = registerBlock("lemon_crate",
@@ -47,12 +49,16 @@ public class BlockInit {
     public static final RegistryObject<Block> ROASTED_PEACH_PIT_SACK = registerBlock("roasted_peach_pit_sack",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).sound(SoundType.WOOL).mapColor(MapColor.TERRACOTTA_BROWN)));
     public static final RegistryObject<Block> ROSE_FLOWER = registerBlock("rose_flower",
-            () -> new FlowerBlock(ModEffects.RADIANT, 0, BlockBehaviour.Properties.copy(Blocks.POPPY).sound(SoundType.GRASS).noCollission().mapColor(MapColor.COLOR_RED)));
+            () -> new FlowerBlock(ModEffects.RADIANT, 300, BlockBehaviour.Properties.copy(Blocks.POPPY).sound(SoundType.GRASS).noCollission().mapColor(MapColor.COLOR_RED)));
     public static final RegistryObject<Block> WILD_MINT = registerBlock("wild_mint",
-            () -> new FlowerBlock(ModEffects.STIMULATED, 0, BlockBehaviour.Properties.copy(Blocks.ALLIUM).sound(SoundType.GRASS).noCollission().mapColor(MapColor.COLOR_LIGHT_GREEN)));
+            () -> new FlowerBlock(ModEffects.STIMULATED, 300, BlockBehaviour.Properties.copy(Blocks.ALLIUM).sound(SoundType.GRASS).noCollission().mapColor(MapColor.COLOR_LIGHT_GREEN)));
     public static final RegistryObject<Block> POTTED_MINT = BLOCKS.register("potted_mint",
             () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), BlockInit.WILD_MINT,
                     BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_ROSE = BLOCKS.register("potted_rose",
+            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), BlockInit.ROSE_FLOWER,
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

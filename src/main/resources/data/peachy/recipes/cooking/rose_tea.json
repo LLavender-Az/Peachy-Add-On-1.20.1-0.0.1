@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bottle"
+  },
+  "cookingtime": 300,
+  "experience": 0.15,
+  "ingredients": [
+    {
+      "item": "peachy:roasted_peach_pit"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "peachy:rose"
+    },
+    {
+      "item": "peachy:rose"
+    }
+
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "peachy:rose_tea"
+  }
+}

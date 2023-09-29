@@ -11,9 +11,11 @@
     {
       "tag": "forge:fruits"
     },
-
     {
       "tag": "forge:fruits"
+    },
+    {
+      "item": "minecraft:sugar"
     },
     {
       "item": "minecraft:ice"

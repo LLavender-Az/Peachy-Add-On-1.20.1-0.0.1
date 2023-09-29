@@ -6,6 +6,7 @@ import net.lavender.peachy.common.*;
 import net.lavender.peachy.advanced.effect.ModEffects;
 import net.lavender.peachy.datagen.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -46,9 +47,9 @@ public class Peachy {
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(BlockInit.WILD_MINT.getId(), BlockInit.POTTED_MINT);
-        });
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(BlockInit.ROSE_FLOWER.getId(), BlockInit.POTTED_ROSE);
 
-
+            });
     }
 
     // Add the example block item to the building blocks tab
@@ -59,7 +60,13 @@ public class Peachy {
             if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
                 event.accept(ItemInit.TATTERED_LEATHER.get());
                 event.accept(ItemInit.LARGE_AMETHYST_CHUNK.get());
+                if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+                    event.accept(BlockInit.ROSE_FLOWER.get());
+                    if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+                        event.accept(ItemInit.LUCK_CHARM.get());
 
+                    }
+                }
             }
         }
     }

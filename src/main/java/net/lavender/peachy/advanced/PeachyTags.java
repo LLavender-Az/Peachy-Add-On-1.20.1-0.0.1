@@ -21,9 +21,9 @@ public class PeachyTags {
 
     public static class Items {
         public static final TagKey<Item> CHEESE = tag("cheese");
-        public static final TagKey<Item> MILK = tag("milk");
         public static final TagKey<Item> FRUITS = tag("fruits");
         public static final TagKey<Item> TEA_LEAVES = tag("tea_leaves");
+        public static final TagKey<Item> KNIVES = tag("knives");
 
 
 

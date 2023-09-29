@@ -3,7 +3,7 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "farmersdelight:pie_crust"
+      "item": "farmersdelight:wheat_dough"
     },
     {
       "item": "peachy:peach_slice"
@@ -13,9 +13,6 @@
     },
     {
       "item": "minecraft:sugar"
-    },
-    {
-      "item": "farmersdelight:wheat_dough"
     },
     {
       "tag": "forge:milk"

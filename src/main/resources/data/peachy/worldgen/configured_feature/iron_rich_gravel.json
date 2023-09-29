@@ -1,7 +1,7 @@
 {
   "type": "peachy:iron_rich_gravel",
   "config": {
-    "size": 14,
+    "size": 23,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {

@@ -3,10 +3,13 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "minecraft:water_bottle"
+      "item": "minecraft:glass_bottle"
     },
     {
       "item": "minecraft:lemon_juice"
+    },
+    {
+      "item": "peachy:lemon_slice"
     },
     {
       "item": "peachy:lemon_slice"
