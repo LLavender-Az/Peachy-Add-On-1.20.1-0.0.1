@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "item": "peachy:cherry_syrup"
+    },
+    {
+      "item": "peachy:cherry"
+    },
+    {
+      "item": "peachy:cherry"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "peachy:cherry_roll"
+  }
+}

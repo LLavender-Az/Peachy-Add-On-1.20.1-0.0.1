@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "peachy:lemon_tart"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "peachy:lemon_tart_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -10,12 +10,15 @@
     },
     "I": {
       "item": "peachy:peach_ice_cream"
+    },
+    "F": {
+      "tag": "forge:flour/rice"
     }
   },
   "pattern": [
-    " O ",
+    " P ",
     "OIO",
-    "POP"
+    " F "
   ],
   "result": {
     "count": 4,

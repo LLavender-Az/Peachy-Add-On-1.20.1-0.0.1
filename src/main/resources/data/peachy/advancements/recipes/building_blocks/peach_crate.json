@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peach:peach_crate"
+        "recipe": "peachy:peach_crate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

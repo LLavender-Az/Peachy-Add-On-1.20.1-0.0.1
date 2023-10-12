@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peachy:lemon_juice"
+        "recipe": "peachy:foods/lemon_juice"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

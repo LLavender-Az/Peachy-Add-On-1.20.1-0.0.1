@@ -1,14 +1,14 @@
 {
   "type": "peachy:iron_rich_gravel",
   "config": {
-    "size": 23,
+    "size": 14,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:gravel"
+            "Name": "minecraft:dirt"
           }
         },
         "state": {

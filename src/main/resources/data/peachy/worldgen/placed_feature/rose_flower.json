@@ -16,7 +16,7 @@
       "type": "minecraft:biome"
     },
     {
-      "type": "farmersdelight:biome_tag",
+      "type": "minecraft:biome",
       "tag": "minecraft:is_overworld"
     }
   ]

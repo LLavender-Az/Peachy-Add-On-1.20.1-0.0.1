@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "peachy:item/lemon_tart"
+    "layer0": "peachy:item/lemon_tart_item"
   }
 }

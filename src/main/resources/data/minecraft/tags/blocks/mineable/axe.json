@@ -3,6 +3,8 @@
   "values": [
     "peachy:peach_crate",
     "peachy:lemon_crate",
-    "peachy:carbonated_rock_crate"
+    "peachy:carbonated_rock_crate",
+    "peachy:oak_palisade",
+    "peachy:spruce_palisade"
   ]
 }

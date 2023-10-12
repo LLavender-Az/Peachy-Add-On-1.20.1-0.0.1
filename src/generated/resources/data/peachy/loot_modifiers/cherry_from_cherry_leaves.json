@@ -1,0 +1,14 @@
+{
+  "type": "peachy:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:cherry_leaves",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.18,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "peachy:cherry"
+}

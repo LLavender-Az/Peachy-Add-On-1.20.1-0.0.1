@@ -22,6 +22,7 @@
   "item.peachy.chocolate_ice_cream": "Chocolate Ice Cream",
   "item.peachy.cheese_wedge": "Cheese Wedge",
   "item.peachy.grilled_cheese": "Grilled Cheese",
+  "item.peachy.cheeseburger": "Cheeseburger",
   "item.peachy.mac_n_cheese": "Mac 'N' Cheese",
   "item.peachy.cheese_n_fruits": "Cheese 'N' Berries",
   "item.peachy.carbonated_rock": "Carbonated Rock",
@@ -30,8 +31,16 @@
   "item.peachy.melon_tanghulu": "Melon Tanghulu",
   "item.peachy.beef_jerky": "Beef Jerky",
   "item.peachy.wheat_flour": "Wheat Flour",
+  "item.peachy.rice_flour": "Rice Flour",
+
+  "item.peachy.fly_amanita": "Fly Amanita",
+  "item.peachy.chanterelle": "Chanterelle",
 
   "item.peachy.cherry": "Cherry",
+  "item.peachy.cherry_cola": "Cherry Cola",
+  "item.peachy.cherry_sunset": "Cherry Sunset",
+  "item.peachy.cherry_syrup": "Cherry Syrup",
+  "item.peachy.cherry_roll": "Cherry Pastry Roll",
 
   "item.peachy.lemon": "Lemon",
   "item.peachy.lemon_bar": "Lemon Bar",
@@ -42,13 +51,10 @@
   "item.peachy.lemon_slice": "Lemon Wedge",
   "item.peachy.lemonade": "Lemonade",
 
-  "item.peachy.luck_charm": "Luck Charm",
   "item.peachy.tattered_leather": "Tattered Leather",
   "item.peachy.large_amethyst_chunk": "Large Amethyst Chunk",
   "item.peachy.rose": "Rose Bud",
   "item.peachy.rose_tea": "Rose Tea,
-  "item.peachy.rice_flour": "Rice Flour",
-
 
   "item.peachy.mint": "Mint Leaf",
   "item.peachy.rooted_mint": "Rooted Mint",
@@ -67,13 +73,18 @@
   "block.peachy.peach_pit_sack": "Peach Pit Sack",
   "block.peachy.roasted_peach_pit_sack": "Roasted Peach Pit Sack",
   "block.peachy.lemon_crate": "Lemon Crate",
+  "block.peachy.lemon_tart": "Lemon Tart",
   "block.peachy.mint_sack": "Mint Sack",
   "block.peachy.carbonated_rock_ore": "Carbonated Rock",
   "block.peachy.carbonated_rock_crate": "Carbonated Rock Crate",
   "block.peachy.iron_rich_gravel": "Iron-Rich Gravel",
   "block.peachy.wild_mint": "Wild Mint",
   "block.peachy.rose_flower": "Rose",
+  "block.peachy.fly_amanita": "Fly Amanita Patch",
+  "block.peachy.chanterelle": "Chanterelle Growth",
   "block.peachy.churn": "Churn (WIP)",
+  "block.peachy.oak_palisade": "Oak Palisade",
+  "block.peachy.spruce_palisade": "Spruce Palisade",
 
   "effect.peachy.radiant": "Radiant",
   "effect.peachy.stimulated": "Stimulated"

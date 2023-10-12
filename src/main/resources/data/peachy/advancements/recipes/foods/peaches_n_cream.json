@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peachy:peaches_n_cream"
+        "recipe": "peachy:foods/peaches_n_cream"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

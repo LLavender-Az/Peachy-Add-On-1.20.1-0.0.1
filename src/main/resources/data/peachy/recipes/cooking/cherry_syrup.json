@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bottle"
+  },
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "peachy:cherry"
+    },
+    {
+      "item": "peachy:cherry"
+    },
+    {
+      "item": "peachy:cherry"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "peachy:cherry_syrup"
+  }
+}

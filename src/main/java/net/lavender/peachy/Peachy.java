@@ -2,11 +2,13 @@ package net.lavender.peachy;
 
 import com.mojang.logging.LogUtils;
 import net.lavender.peachy.advanced.PeachyTab;
-import net.lavender.peachy.common.*;
 import net.lavender.peachy.advanced.effect.ModEffects;
+import net.lavender.peachy.common.BlockInit;
+import net.lavender.peachy.common.FeatureInit;
+import net.lavender.peachy.common.FoodInit;
+import net.lavender.peachy.common.ItemInit;
 import net.lavender.peachy.datagen.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -62,14 +64,11 @@ public class Peachy {
                 event.accept(ItemInit.LARGE_AMETHYST_CHUNK.get());
                 if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
                     event.accept(BlockInit.ROSE_FLOWER.get());
-                    if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-                        event.accept(ItemInit.LUCK_CHARM.get());
 
                     }
                 }
             }
         }
-    }
 
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

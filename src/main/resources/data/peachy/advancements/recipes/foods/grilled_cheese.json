@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peachy:grilled_cheese"
+        "recipe": "peachy:foods/grilled_cheese"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

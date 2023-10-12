@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peach:mint_sack"
+        "recipe": "peachy:mint_sack"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

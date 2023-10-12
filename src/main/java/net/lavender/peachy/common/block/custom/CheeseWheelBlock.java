@@ -3,7 +3,6 @@ package net.lavender.peachy.common.block.custom;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -21,7 +20,6 @@ public class CheeseWheelBlock extends Block {
 
     private static final VoxelShape SHAPE =
             Block.box(1, 0, 1, 15, 7, 15);
-
     @Override
     public VoxelShape getShape(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos, CollisionContext collisionContext) {
         return SHAPE;

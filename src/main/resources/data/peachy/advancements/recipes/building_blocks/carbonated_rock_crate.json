@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peach:carbonated_rock_crate"
+        "recipe": "peachy:carbonated_rock_crate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

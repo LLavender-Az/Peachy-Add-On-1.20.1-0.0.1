@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peachy:peach_ice_cream"
+        "recipe": "peachy:foods/peach_ice_cream"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

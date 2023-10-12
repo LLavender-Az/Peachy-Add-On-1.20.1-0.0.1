@@ -1,10 +1,10 @@
 {
   "type": "minecraft:campfire_cooking",
   "category": "food",
-  "cookingtime": 600,
-  "experience": 0.35,
+  "cookingtime": 900,
+  "experience": 1.00,
   "ingredient": {
-    "item": "minecraft:steak"
+    "item": "minecraft:cooked_beef"
   },
   "result": "peachy:beef_jerky"
 }

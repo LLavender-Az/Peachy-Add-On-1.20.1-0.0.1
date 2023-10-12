@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SSS"
+  ],
+  "result": {
+    "count": 4,
+    "item": "peachy:spruce_palisade"
+  },
+  "show_notification": true
+}

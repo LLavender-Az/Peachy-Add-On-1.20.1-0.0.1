@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peachy:peach_cookie_crumble"
+        "recipe": "peachy:foods/peach_cookie_crumble"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

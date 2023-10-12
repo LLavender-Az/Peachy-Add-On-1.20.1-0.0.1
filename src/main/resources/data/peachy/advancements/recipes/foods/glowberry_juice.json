@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peachy:glowberry_juice"
+        "recipe": "peachy:foods/glowberry_juice"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

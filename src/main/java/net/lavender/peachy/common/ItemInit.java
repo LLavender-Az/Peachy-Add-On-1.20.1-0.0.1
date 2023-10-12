@@ -2,14 +2,11 @@ package net.lavender.peachy.common;
 
 import net.lavender.peachy.Peachy;
 import net.lavender.peachy.common.item.custom.CarbonatedRockItem;
-import net.lavender.peachy.common.item.custom.LuckCharmItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
-import net.minecraft.world.item.Rarity;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
 
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Peachy.MOD_ID);
@@ -23,7 +20,6 @@ public class ItemInit {
     public static final RegistryObject<Item> ROOTED_MINT = ITEMS.register("rooted_mint", () -> new ItemNameBlockItem(BlockInit.MINT_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> TATTERED_LEATHER = ITEMS.register("tattered_leather", () -> new Item(props()));
     public static final RegistryObject<Item> LARGE_AMETHYST_CHUNK = ITEMS.register("large_amethyst_chunk", () -> new Item(props()));
-    public static final RegistryObject<Item> LUCK_CHARM = ITEMS.register("luck_charm", () -> new LuckCharmItem(props().stacksTo(1).rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> WHEAT_FLOUR = ITEMS.register("wheat_flour", () -> new Item(props()));
     public static final RegistryObject<Item> RICE_FLOUR = ITEMS.register("rice_flour", () -> new Item(props()));
 

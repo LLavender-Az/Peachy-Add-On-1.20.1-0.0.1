@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "peachy:block/spruce_palisade",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "peachy:block/spruce_palisade",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "peachy:block/spruce_palisade"
+    },
+    "facing=west": {
+      "model": "peachy:block/spruce_palisade",
+      "y": 90
+    }
+  }
+}

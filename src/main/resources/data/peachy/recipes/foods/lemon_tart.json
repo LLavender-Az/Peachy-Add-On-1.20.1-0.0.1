@@ -1,25 +1,30 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "food",
-  "ingredients": [
-    {
-      "item": "farmersdelight:pie_crust"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "w": {
+      "tag": "forge:dough"
     },
-    {
+    "M": {
       "tag": "forge:milk"
     },
-    {
+    "L": {
       "item": "peachy:lemon_juice"
     },
-    {
-      "item": "minecraft:egg"
-    },
-    {
+    "S": {
       "item": "minecraft:sugar"
+    },
+    "e": {
+      "item": "minecraft:egg"
     }
+  },
+  "pattern": [
+    "MLM",
+    "SeS",
+    "www"
   ],
   "result": {
-    "count": 1,
     "item": "peachy:lemon_tart"
-  }
+  },
+  "show_notification": true
 }

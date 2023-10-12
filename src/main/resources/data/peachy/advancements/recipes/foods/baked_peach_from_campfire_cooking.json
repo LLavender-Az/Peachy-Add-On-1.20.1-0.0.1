@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peachy:baked_peach_from_campfire_cooking"
+        "recipe": "peachy:foods/baked_peach_from_campfire_cooking"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

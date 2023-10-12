@@ -13,8 +13,6 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCon
 import net.minecraftforge.common.data.GlobalLootModifierProvider;
 import net.minecraftforge.common.loot.LootTableIdCondition;
 
-import java.util.List;
-
 public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
     public ModGlobalLootModifiersProvider(PackOutput output) {
         super(output, Peachy.MOD_ID);
@@ -27,13 +25,13 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.BIRCH_LEAVES).build(),
                 LootItemRandomChanceCondition.randomChance(0.18f).build()}, FoodInit.PEACH.get()));
 
-        add("lemon_from_dark_oak_leaves", new AddItemModifier(new LootItemCondition[] {
+        add("lemon_from_mangrove_leaves", new AddItemModifier(new LootItemCondition[] {
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.MANGROVE_LEAVES).build(),
                 LootItemRandomChanceCondition.randomChance(0.18f).build()}, FoodInit.LEMON.get()));
 
-        add("poppy_seeds_from_poppy", new AddItemModifier(new LootItemCondition[] {
-                LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.POPPY).build(),
-                LootItemRandomChanceCondition.randomChance(0.10f).build()}, FoodInit.POPPY_SEEDS.get()));
+        add("cherry_from_cherry_leaves", new AddItemModifier(new LootItemCondition[] {
+                LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.CHERRY_LEAVES).build(),
+                LootItemRandomChanceCondition.randomChance(0.18f).build()}, FoodInit.CHERRY.get()));
 
         add("large_amethyst_from_amethyst", new AddItemModifier(new LootItemCondition[] {
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.AMETHYST_CLUSTER).build(),

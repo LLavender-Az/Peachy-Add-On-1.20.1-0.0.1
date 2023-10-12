@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "peachy:mint_chocolate_mochi"
+        "recipe": "peachy:foods/mint_chocolate_mochi"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -2,20 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "food",
   "key": {
-    "M": {
-      "item": "peachy:milk_chocolate"
+    "A": {
+      "item": "peachy:mint_extract"
     },
-    "R": {
+    "J": {
       "item": "farmersdelight:rice"
     },
-    "E": {
+    "O": {
       "item": "peachy:mint_ice_cream"
+    },
+    "L": {
+      "tag": "forge:flour/rice"
     }
   },
   "pattern": [
-    " R ",
-    "RER",
-    "MRM"
+    " A ",
+    "JOJ",
+    " L "
   ],
   "result": {
     "count": 4,

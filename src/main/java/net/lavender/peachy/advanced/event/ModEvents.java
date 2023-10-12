@@ -9,7 +9,6 @@ import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.MerchantOffer;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -72,16 +71,6 @@ public class ModEvents {
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
                     new ItemStack(Items.LEATHER, 4),
                     stack, 32, 16, 0.45F));
-        }
-        //LIBRARIAN TRADES 1 LUCK CHARM FOR 5 EMERALD BLOCKS
-        if (event.getType() == VillagerProfession.CLERIC) {
-            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
-            ItemStack stack = new ItemStack(Items.EMERALD_BLOCK, 5);
-            int villagerLevel = 4;
-
-            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                    new ItemStack(ItemInit.LUCK_CHARM.get(), 1),
-                    stack, 1, 50, 1.0F));
 
         }
     }
